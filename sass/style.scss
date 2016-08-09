@@ -1,0 +1,70 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+@import "partials/_variables.scss";
+@import "partials/_normalize.scss";
+@import "partials/_base.scss";
+@import "partials/_layout.scss";
+@import "partials/_components.scss";
+@import "partials/_pages.scss";
+@import "partials/_vendors.scss";
+
+
+
+
+.half {
+	width: 50%;
+	float: left;
+	height: 700px;
+	background: $black;
+}
+
+
+.feedback-rating {
+		width: 50%;
+
+		
+		/*background: url(../images/feedback-bg.jpg) no-repeat;*/
+		background-size: cover;
+
+
+}
+
+section.feedback {
+	width: 100%;
+}
+
+
+.evaluation-form {
+	width: 65%;
+	float: right;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

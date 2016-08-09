@@ -1,0 +1,244 @@
+/*====================
+BUTTONS
+====================*/
+
+.button {
+	padding: 10px;
+	display: block;
+	width: 50%;
+	text-align: center;
+	letter-spacing: 1.5;
+	font-size: 0.875em;
+	
+	
+	transition: .25s all linear;
+
+
+}
+
+.tags li{
+		display: inline-block;
+		padding: 10px;
+		margin-bottom: 10px;
+		
+
+
+		a {
+			
+			
+			text-transform: capitalize;
+		}
+}
+
+
+
+
+
+
+/*=================
+TIMELINE
+=================*/
+
+.timeline {
+	width: 29%;
+	margin-left: 30%;
+	float: left;
+
+	/*background: yellow;*/
+	position: relative;
+	z-index: 1;
+}
+
+.timeline:before {
+	content: '';
+	width: 1px;
+	background: $black;
+	height: 550px;
+	position: absolute;
+	z-index: 2;
+	left: -25px;
+}
+
+
+
+
+
+/*=================
+Q & A Dropdown
+=================*/
+
+
+
+
+
+/* dropdown Float left */
+article .QA-dropdown {
+		width: 50%;
+	height: 380px;
+	
+	margin-right: 2%;
+}
+
+/*=================
+Sidebar
+=================*/
+/*verticle nav*/
+
+.vertical-nav li{
+	margin-top: 5px;
+	padding: 10px 0;
+	
+    a {
+    	padding-left: 20px;
+    }
+}
+
+/* download widget*/
+.widget {
+	
+	li{
+		padding: 15px 0 40px 0;
+		position: relative;
+		margin-top: 5px;
+		font-size: 0.875em;
+	
+
+	span {
+		position: absolute;
+		display: block;
+		padding-top: 8px;
+		left: 50px;
+		color: $grey;
+		}
+
+		i {
+			font-size: 1.5em;
+			padding: 0 5px 0 20px; 
+		}
+	}
+}
+
+/*tabs*/
+
+.tab-container {
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-right: 5%;
+}
+/*#tab-1 {
+	background-color: yellow;
+}
+
+#tab-2 {
+	background-color: blue;
+}
+
+#tab-3{
+	background-color: green;
+}*/
+
+	ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			border: 1px solid $grey;
+			
+		}
+
+		.tab-content{
+			display: none;
+			
+			padding: 15px;
+			overflow: hidden;
+		}
+
+		.tab-content.current{
+			display: inherit;
+}
+
+
+.dropDown-Panel {
+	width: 100%;
+	
+	
+}
+
+.dropDown-Panel h3 {
+  
+  padding: 10px;
+  margin: 10px 0 0 0;
+  background: url(http://www.icon2s.com/img64/64x64-ios7-plus-icon.png) no-repeat;
+  background-size: 25px; 
+  background-position: 300px;
+  cursor: pointer;
+ }
+
+.dropDown-Panel .close {
+  background-image: url(http://www.icon2s.com/img64/64x64-ios7-minus-icon.png);
+}
+
+/*=========================
+FORM
+==========================*/
+form {
+	width: 90%;
+	overflow: hidden;
+	
+
+	input {color: $grey;
+		background: inherit;
+		margin-bottom: 10px;
+		width: 45%;
+		padding: 10px 0;
+		border: none;
+		border-bottom: 1px solid $grey;
+		outline: none;
+		float: left;
+
+
+			&:nth-child(odd) {
+				margin-right: 4%;
+				margin-left: 1%;
+			}
+
+			&[type="text"] {color: $white;}
+			&[type="text"]:focus {border-bottom: 1px solid $orange;
+				color: $white;
+
+				
+			}
+
+			&.subject {width: 95%;}
+
+	}
+
+
+	
+	textarea {
+		width: 95%;
+		height: 150px;
+		margin-bottom: 30px;
+		margin-left: 1%;
+		background: inherit;
+		background: #302f36;
+		border: none;
+		outline: none;
+		color: $white;
+		
+	}
+	.subject {width: 100%;}
+
+}
+
+

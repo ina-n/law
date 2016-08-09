@@ -1,0 +1,1535 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, ../sass/partials/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, ../sass/partials/_normalize.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 32, ../sass/partials/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 51, ../sass/partials/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 62, ../sass/partials/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 71, ../sass/partials/_normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 80, ../sass/partials/_normalize.scss */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 93, ../sass/partials/_normalize.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 103, ../sass/partials/_normalize.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 116, ../sass/partials/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 126, ../sass/partials/_normalize.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 135, ../sass/partials/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 144, ../sass/partials/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 153, ../sass/partials/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 162, ../sass/partials/_normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 171, ../sass/partials/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 180, ../sass/partials/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 188, ../sass/partials/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 192, ../sass/partials/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 203, ../sass/partials/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 211, ../sass/partials/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 223, ../sass/partials/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 235, ../sass/partials/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 244, ../sass/partials/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 258, ../sass/partials/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 270, ../sass/partials/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 279, ../sass/partials/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 289, ../sass/partials/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 300, ../sass/partials/_normalize.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 311, ../sass/partials/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 323, ../sass/partials/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 334, ../sass/partials/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 347, ../sass/partials/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 360, ../sass/partials/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 369, ../sass/partials/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 379, ../sass/partials/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 389, ../sass/partials/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 398, ../sass/partials/_normalize.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 407, ../sass/partials/_normalize.scss */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 417, ../sass/partials/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*=====================
+GLOBAL
+======================*/
+/* line 5, ../sass/partials/_base.scss */
+body {
+  font-size: 14px;
+  font-family: 'Merriweather', sans-serif;
+}
+
+/* line 11, ../sass/partials/_base.scss */
+header {
+  padding: 1px 0;
+  /* prevent margin collapse*/
+}
+
+/* line 15, ../sass/partials/_base.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 20, ../sass/partials/_base.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
+}
+
+/* line 28, ../sass/partials/_base.scss */
+h1,
+h2,
+h3,
+h4,
+h5, a {
+  text-transform: uppercase;
+}
+
+/* line 36, ../sass/partials/_base.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 42, ../sass/partials/_base.scss */
+h2 {
+  text-align: center;
+}
+
+/* line 46, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 51, ../sass/partials/_base.scss */
+p {
+  padding: 10px 0;
+  line-height: 1.6;
+}
+
+/* line 56, ../sass/partials/_base.scss */
+section {
+  padding: 50px 0;
+}
+
+/*===============
+COLORS & FONT_SIZE
+================*/
+/*SECTION Background*/
+/* line 69, ../sass/partials/_base.scss */
+.black-bg {
+  background-color: #201f24;
+}
+
+/* line 71, ../sass/partials/_base.scss */
+.white-bg {
+  background-color: #fff;
+}
+
+/* FONT COLORS */
+/* line 75, ../sass/partials/_base.scss */
+p {
+  color: #b6b5b8;
+}
+
+/* line 77, ../sass/partials/_base.scss */
+article p {
+  color: #201f24;
+}
+
+/* line 79, ../sass/partials/_base.scss */
+footer h4 {
+  color: #EE9A49;
+}
+
+/* line 81, ../sass/partials/_base.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/*BORDER STYLE  */
+/* line 88, ../sass/partials/_base.scss */
+.single-border {
+  border: 1px solid #EE9A49;
+}
+
+/* line 90, ../sass/partials/_base.scss */
+.single-border-alt {
+  border: 1px solid #b6b5b8;
+}
+
+/* line 93, ../sass/partials/_base.scss */
+.double-border {
+  border: 1px double #EE9A49;
+  border-width: 5px;
+}
+
+/* line 1, ../sass/partials/_layout.scss */
+.wrap {
+  width: 90%;
+  /* 1200px  */
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 5%;
+  /*background-color: green;*/
+}
+
+/*CLEAR FIX */
+/* line 11, ../sass/partials/_layout.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 17, ../sass/partials/_layout.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 21, ../sass/partials/_layout.scss */
+.left {
+  float: left;
+}
+
+/* line 25, ../sass/partials/_layout.scss */
+.right {
+  float: right;
+}
+
+/*======================
+4- column asides global
+=======================*/
+/* line 31, ../sass/partials/_layout.scss */
+.col-4 {
+  width: 24%;
+  float: left;
+  margin-left: 1%;
+}
+/* line 35, ../sass/partials/_layout.scss */
+.col-4:first-child {
+  margin-left: 0;
+}
+
+/*======================
+3 column asides  global
+=======================*/
+/* line 46, ../sass/partials/_layout.scss */
+.col-3 {
+  width: 32%;
+  float: left;
+  margin-left: 1%;
+}
+/* line 50, ../sass/partials/_layout.scss */
+.col-3:first-child {
+  margin-left: 0;
+}
+
+/*======================
+HEADER 
+=======================*/
+/* TOPLEVEL */
+/* line 61, ../sass/partials/_layout.scss */
+.toplevel {
+  padding-bottom: 25px;
+}
+/* line 64, ../sass/partials/_layout.scss */
+.toplevel li {
+  display: inline-block;
+  padding-right: 8px;
+}
+/* line 69, ../sass/partials/_layout.scss */
+.toplevel a {
+  color: #b6b5b8;
+  font-size: 0.750em;
+}
+/* line 72, ../sass/partials/_layout.scss */
+.toplevel a:hover {
+  color: #fff;
+}
+
+/* line 79, ../sass/partials/_layout.scss */
+.search-box {
+  width: 33.33%;
+  float: left;
+  margin-top: 15px;
+}
+/* line 83, ../sass/partials/_layout.scss */
+.search-box input {
+  background: #201f24;
+  border: none;
+}
+/* line 87, ../sass/partials/_layout.scss */
+.search-box i {
+  color: #b6b5b8;
+}
+
+/* line 93, ../sass/partials/_layout.scss */
+.logo {
+  float: left;
+  margin-right: 7%;
+  vertical-align: middle;
+}
+
+/****** HERO *****/
+/* line 100, ../sass/partials/_layout.scss */
+.hero {
+  background-color: #201f24;
+  padding: 30px 0;
+  position: relative;
+}
+/* line 104, ../sass/partials/_layout.scss */
+.hero h1 {
+  color: #EE9A49;
+  text-align: center;
+  font-size: 3em;
+}
+/* line 110, ../sass/partials/_layout.scss */
+.hero h1 span {
+  display: inline-block;
+  font-size: 0.5em;
+  color: #fff;
+}
+
+/*============================
+	NAVIGATION
+=============================*/
+/*** TOPLEVEL *****/
+/* line 127, ../sass/partials/_layout.scss */
+.toplevel-nav {
+  width: 33.33%;
+  float: left;
+}
+
+/***** MAIN NAVIGTION ******/
+/* line 134, ../sass/partials/_layout.scss */
+.main-nav {
+  width: 75%;
+  vertical-align: center;
+  overflow: hidden;
+}
+/* line 139, ../sass/partials/_layout.scss */
+.main-nav li {
+  line-height: 2.5;
+  float: left;
+  padding-left: 4%;
+}
+/* line 145, ../sass/partials/_layout.scss */
+.main-nav a {
+  color: #fff;
+}
+/* line 148, ../sass/partials/_layout.scss */
+.main-nav a:hover {
+  color: #EE9A49;
+}
+
+/*Horizontal Article Navigation */
+/* line 156, ../sass/partials/_layout.scss */
+.article-nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 2%;
+}
+/* line 161, ../sass/partials/_layout.scss */
+.article-nav li:first-child {
+  margin-left: 0;
+}
+
+/****** FOOTER NAVITGATIOM ******/
+/* line 169, ../sass/partials/_layout.scss */
+.footer-nav {
+  width: 55%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+/* line 177, ../sass/partials/_layout.scss */
+.footer-nav li {
+  float: left;
+  margin-left: 4%;
+}
+/* line 181, ../sass/partials/_layout.scss */
+.footer-nav a {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+/****** OTHER NAVITGATIOM ******/
+/* inactive nav styles */
+/* line 191, ../sass/partials/_layout.scss */
+.inactive a {
+  color: #b6b5b8;
+}
+
+/* line 195, ../sass/partials/_layout.scss */
+.active {
+  border-color: #EE9A49;
+}
+/* line 199, ../sass/partials/_layout.scss */
+.active a {
+  color: #201f24;
+}
+
+/*======================
+Article Base Style
+=======================*/
+/* line 208, ../sass/partials/_layout.scss */
+article {
+  width: 65%;
+  float: left;
+  padding: 0 8px;
+}
+/* line 213, ../sass/partials/_layout.scss */
+article aside {
+  width: 30%;
+}
+
+/* line 219, ../sass/partials/_layout.scss */
+.sidebar {
+  width: 20.9%;
+  float: left;
+  margin-right: 10%;
+  margin-left: 1%;
+}
+/* line 225, ../sass/partials/_layout.scss */
+.sidebar aside {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 1px 0;
+  /* fix margin collapse */
+}
+
+/* line 239, ../sass/partials/_layout.scss */
+.contact-info {
+  overflow: hidden;
+  color: #b6b5b8;
+}
+/* line 243, ../sass/partials/_layout.scss */
+.contact-info span {
+  color: #EE9A49;
+}
+
+/* line 250, ../sass/partials/_layout.scss */
+.quote {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/*======================
+FEEDBACK SECTION
+=======================*/
+/* line 262, ../sass/partials/_layout.scss */
+.feedback h2 {
+  color: #fff;
+  text-align: left;
+  padding: 20px 0;
+}
+
+/*======================
+FOOTER
+=======================*/
+/* line 274, ../sass/partials/_layout.scss */
+.logo-footer img {
+  display: block;
+  padding: 30px 0;
+  max-width: 250px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*====================
+BUTTONS
+====================*/
+/* line 5, ../sass/partials/_components.scss */
+.button {
+  padding: 10px;
+  display: block;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1.5;
+  font-size: 0.875em;
+  transition: .25s all linear;
+}
+
+/* line 19, ../sass/partials/_components.scss */
+.tags li {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* line 26, ../sass/partials/_components.scss */
+.tags li a {
+  text-transform: capitalize;
+}
+
+/*=================
+TIMELINE
+=================*/
+/* line 42, ../sass/partials/_components.scss */
+.timeline {
+  width: 29%;
+  margin-left: 30%;
+  float: left;
+  /*background: yellow;*/
+  position: relative;
+  z-index: 1;
+}
+
+/* line 52, ../sass/partials/_components.scss */
+.timeline:before {
+  content: '';
+  width: 1px;
+  background: #201f24;
+  height: 550px;
+  position: absolute;
+  z-index: 2;
+  left: -25px;
+}
+
+/*=================
+Q & A Dropdown
+=================*/
+/* dropdown Float left */
+/* line 75, ../sass/partials/_components.scss */
+article .QA-dropdown {
+  width: 50%;
+  height: 380px;
+  margin-right: 2%;
+}
+
+/*=================
+Sidebar
+=================*/
+/*verticle nav*/
+/* line 87, ../sass/partials/_components.scss */
+.vertical-nav li {
+  margin-top: 5px;
+  padding: 10px 0;
+}
+/* line 91, ../sass/partials/_components.scss */
+.vertical-nav li a {
+  padding-left: 20px;
+}
+
+/* download widget*/
+/* line 99, ../sass/partials/_components.scss */
+.widget li {
+  padding: 15px 0 40px 0;
+  position: relative;
+  margin-top: 5px;
+  font-size: 0.875em;
+}
+/* line 106, ../sass/partials/_components.scss */
+.widget li span {
+  position: absolute;
+  display: block;
+  padding-top: 8px;
+  left: 50px;
+  color: #b6b5b8;
+}
+/* line 114, ../sass/partials/_components.scss */
+.widget li i {
+  font-size: 1.5em;
+  padding: 0 5px 0 20px;
+}
+
+/*tabs*/
+/* line 123, ../sass/partials/_components.scss */
+.tab-container {
+  width: 70%;
+  /*border: 1px solid red;*/
+  float: left;
+  margin-right: 5%;
+}
+
+/*#tab-1 {
+	background-color: yellow;
+}
+
+#tab-2 {
+	background-color: blue;
+}
+
+#tab-3{
+	background-color: green;
+}*/
+/* line 141, ../sass/partials/_components.scss */
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 146, ../sass/partials/_components.scss */
+ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* line 154, ../sass/partials/_components.scss */
+ul.tabs li.current {
+  border: 1px solid #b6b5b8;
+}
+
+/* line 159, ../sass/partials/_components.scss */
+.tab-content {
+  display: none;
+  padding: 15px;
+  overflow: hidden;
+}
+
+/* line 166, ../sass/partials/_components.scss */
+.tab-content.current {
+  display: inherit;
+}
+
+/* line 171, ../sass/partials/_components.scss */
+.dropDown-Panel {
+  width: 100%;
+}
+
+/* line 177, ../sass/partials/_components.scss */
+.dropDown-Panel h3 {
+  padding: 10px;
+  margin: 10px 0 0 0;
+  background: url(http://www.icon2s.com/img64/64x64-ios7-plus-icon.png) no-repeat;
+  background-size: 25px;
+  background-position: 300px;
+  cursor: pointer;
+}
+
+/* line 187, ../sass/partials/_components.scss */
+.dropDown-Panel .close {
+  background-image: url(http://www.icon2s.com/img64/64x64-ios7-minus-icon.png);
+}
+
+/*=========================
+FORM
+==========================*/
+/* line 194, ../sass/partials/_components.scss */
+form {
+  width: 90%;
+  overflow: hidden;
+}
+/* line 199, ../sass/partials/_components.scss */
+form input {
+  color: #b6b5b8;
+  background: inherit;
+  margin-bottom: 10px;
+  width: 45%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #b6b5b8;
+  outline: none;
+  float: left;
+}
+/* line 210, ../sass/partials/_components.scss */
+form input:nth-child(odd) {
+  margin-right: 4%;
+  margin-left: 1%;
+}
+/* line 215, ../sass/partials/_components.scss */
+form input[type="text"] {
+  color: #fff;
+}
+/* line 216, ../sass/partials/_components.scss */
+form input[type="text"]:focus {
+  border-bottom: 1px solid #EE9A49;
+  color: #fff;
+}
+/* line 222, ../sass/partials/_components.scss */
+form input.subject {
+  width: 95%;
+}
+/* line 228, ../sass/partials/_components.scss */
+form textarea {
+  width: 95%;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-left: 1%;
+  background: inherit;
+  background: #302f36;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+/* line 240, ../sass/partials/_components.scss */
+form .subject {
+  width: 100%;
+}
+
+/*================================
+INDEX.html
+==================================*/
+/*BORDER STYLE (non button) */
+/* line 7, ../sass/partials/_pages.scss */
+.services {
+  border-bottom: 1px solid #b6b5b8;
+}
+
+/* line 11, ../sass/partials/_pages.scss */
+.services aside {
+  border-left: 1px solid #b6b5b8;
+}
+
+/* line 15, ../sass/partials/_pages.scss */
+.services aside:last-child {
+  border-right: 1px solid #b6b5b8;
+}
+
+/* line 19, ../sass/partials/_pages.scss */
+section.about {
+  background: url(../images/male-lawyer.jpg) no-repeat 15% 15px;
+  background-size: 13%;
+}
+
+/* line 26, ../sass/partials/_pages.scss */
+.QA {
+  width: 30%;
+  float: right;
+}
+
+/*================================
+banking.html
+==================================*/
+/* line 37, ../sass/partials/_pages.scss */
+.quote-container {
+  padding: 35px;
+  text-align: center;
+}
+/* line 42, ../sass/partials/_pages.scss */
+.quote-container q {
+  color: #fff;
+  font-size: 1.5em;
+}
+/* line 47, ../sass/partials/_pages.scss */
+.quote-container p {
+  color: #b6b5b8;
+}
+
+/* line 51, ../sass/partials/_pages.scss */
+article .dropDown-Panel {
+  width: 45%;
+  padding-right: 5%;
+}
+
+/* line 56, ../sass/partials/_pages.scss */
+article .lawyers {
+  clear: left;
+  overflow: hidden;
+  padding-top: 70px;
+}
+
+/*=================================
+FlexSlider
+====================================
+
+ * jQuery FlexSlider v2.6.1
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ *
+ */
+/* ====================================================================================================================
+ * FONT-FACE
+ * ====================================================================================================================*/
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url("fonts/flexslider-icon.eot");
+  src: url("fonts/flexslider-icon.eot?#iefix") format("embedded-opentype"), url("fonts/flexslider-icon.woff") format("woff"), url("fonts/flexslider-icon.ttf") format("truetype"), url("fonts/flexslider-icon.svg#flexslider-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+/* line 28, ../sass/partials/_vendors.scss */
+.flex-container a:hover,
+.flex-slider a:hover {
+  outline: none;
+}
+
+/* line 32, ../sass/partials/_vendors.scss */
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 40, ../sass/partials/_vendors.scss */
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+
+/* ====================================================================================================================
+ * BASE STYLES
+ * ====================================================================================================================*/
+/* line 46, ../sass/partials/_vendors.scss */
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 50, ../sass/partials/_vendors.scss */
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 54, ../sass/partials/_vendors.scss */
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+
+/* line 58, ../sass/partials/_vendors.scss */
+.flexslider .slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 66, ../sass/partials/_vendors.scss */
+html[xmlns] .flexslider .slides {
+  display: block;
+}
+
+/* line 69, ../sass/partials/_vendors.scss */
+* html .flexslider .slides {
+  height: 1%;
+}
+
+/* line 72, ../sass/partials/_vendors.scss */
+.no-js .flexslider .slides > li:first-child {
+  display: block;
+}
+
+/* ====================================================================================================================
+ * DEFAULT THEME
+ * ====================================================================================================================*/
+/* line 78, ../sass/partials/_vendors.scss */
+.flexslider {
+  margin: 0 0 60px;
+  background: #fff;
+  border: 4px solid #fff;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* line 92, ../sass/partials/_vendors.scss */
+.flexslider .slides {
+  zoom: 1;
+}
+
+/* line 95, ../sass/partials/_vendors.scss */
+.flexslider .slides img {
+  height: auto;
+  -moz-user-select: none;
+}
+
+/* line 99, ../sass/partials/_vendors.scss */
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 107, ../sass/partials/_vendors.scss */
+.loading .flex-viewport {
+  max-height: 300px;
+}
+
+/* line 110, ../sass/partials/_vendors.scss */
+.carousel li {
+  margin-right: 5px;
+}
+
+/* line 113, ../sass/partials/_vendors.scss */
+.flex-direction-nav {
+  *height: 0;
+}
+
+/* line 116, ../sass/partials/_vendors.scss */
+.flex-direction-nav a {
+  text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 136, ../sass/partials/_vendors.scss */
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  content: '\f001';
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* line 144, ../sass/partials/_vendors.scss */
+.flex-direction-nav a.flex-next:before {
+  content: '\f002';
+}
+
+/* line 147, ../sass/partials/_vendors.scss */
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+
+/* line 150, ../sass/partials/_vendors.scss */
+.flex-direction-nav .flex-next {
+  right: -50px;
+  text-align: right;
+}
+
+/* line 154, ../sass/partials/_vendors.scss */
+.flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: 10px;
+}
+
+/* line 158, ../sass/partials/_vendors.scss */
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+
+/* line 161, ../sass/partials/_vendors.scss */
+.flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: 10px;
+}
+
+/* line 165, ../sass/partials/_vendors.scss */
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
+
+/* line 168, ../sass/partials/_vendors.scss */
+.flex-direction-nav .flex-disabled {
+  opacity: 0 !important;
+  filter: alpha(opacity=0);
+  cursor: default;
+  z-index: -1;
+}
+
+/* line 174, ../sass/partials/_vendors.scss */
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+
+/* line 187, ../sass/partials/_vendors.scss */
+.flex-pauseplay a:before {
+  font-family: "flexslider-icon";
+  font-size: 20px;
+  display: inline-block;
+  content: '\f004';
+}
+
+/* line 193, ../sass/partials/_vendors.scss */
+.flex-pauseplay a:hover {
+  opacity: 1;
+}
+
+/* line 196, ../sass/partials/_vendors.scss */
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
+
+/* line 199, ../sass/partials/_vendors.scss */
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center;
+}
+
+/* line 205, ../sass/partials/_vendors.scss */
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 211, ../sass/partials/_vendors.scss */
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 227, ../sass/partials/_vendors.scss */
+.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* line 231, ../sass/partials/_vendors.scss */
+.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default;
+}
+
+/* line 236, ../sass/partials/_vendors.scss */
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+
+/* line 241, ../sass/partials/_vendors.scss */
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+
+/* line 246, ../sass/partials/_vendors.scss */
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 259, ../sass/partials/_vendors.scss */
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+
+/* line 262, ../sass/partials/_vendors.scss */
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+@media screen and (max-width: 860px) {
+  /* line 270, ../sass/partials/_vendors.scss */
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 10px;
+  }
+
+  /* line 274, ../sass/partials/_vendors.scss */
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 10px;
+  }
+}
+/* ====================================================================================================================
+ * CUSTOM NAVIGATION
+ * =========================================================================================*/
+/* line 285, ../sass/partials/_vendors.scss */
+.custom-navigation > a {
+  color: #b6b5b8;
+  border: 1px solid #b6b5b8;
+  float: left;
+  margin-right: 1%;
+  padding: 8px 16px;
+  font-size: 18px;
+  position: relative;
+  left: -15px;
+}
+
+/* line 297, ../sass/partials/_vendors.scss */
+.custom-controls-container {
+  display: none;
+}
+
+/* line 15, ../sass/style.scss */
+.half {
+  width: 50%;
+  float: left;
+  height: 700px;
+  background: #201f24;
+}
+
+/* line 23, ../sass/style.scss */
+.feedback-rating {
+  width: 50%;
+  /*background: url(../images/feedback-bg.jpg) no-repeat;*/
+  background-size: cover;
+}
+
+/* line 33, ../sass/style.scss */
+section.feedback {
+  width: 100%;
+}
+
+/* line 38, ../sass/style.scss */
+.evaluation-form {
+  width: 65%;
+  float: right;
+}

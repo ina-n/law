@@ -1,0 +1,96 @@
+/*=====================
+GLOBAL
+======================*/
+
+body {
+
+	font-size: 14px;
+	font-family: 'Merriweather', sans-serif;
+}
+
+header {
+	padding: 1px 0;  /* prevent margin collapse*/
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Playfair Display", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,  a {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+
+
+h2 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+p {
+	padding: 10px 0;
+	line-height: 1.6;
+}
+
+section {
+	padding: 50px 0;
+}
+
+
+
+
+/*===============
+COLORS & FONT_SIZE
+================*/
+
+/*SECTION Background*/
+
+.black-bg {background-color: $black;}
+
+.white-bg {background-color: $white;}
+
+/* FONT COLORS */
+
+p {color: $grey;}
+
+article p { color: $black;}
+
+footer h4 {color: $orange;}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+
+/*BORDER STYLE  */
+
+.single-border {border: 1px solid $orange;}
+
+.single-border-alt {border: 1px solid $grey;}
+
+
+.double-border {
+	border: 1px double $orange;
+	border-width: 5px;
+}
