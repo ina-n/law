@@ -18,13 +18,25 @@ $(document).ready(function(){
 
 // Can also be used with $(document).ready()
 $(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    controlsContainer: $(".custom-controls-container"),
-    customDirectionNav: $(".custom-navigation a"),
-    asNavFor: '#feedback-slide'
-  });
 
+	$('.flexslider').each(function(){
+
+
+ 		 $('#timeline-slide').flexslider({
+   			animation: "slide",
+    		controlsContainer: $(".custom-controls-container"),
+    		customDirectionNav: $(".custom-navigation a"),
+    		
+  			});
+
+  		$('#feedback-slide').flexslider({
+  			animation: 'slide',
+  			controlNav: false,
+  			directionNav: true
+
+  		});
+
+	});
  
 
 });

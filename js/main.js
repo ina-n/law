@@ -5,7 +5,7 @@ $('.dropDown-Panel > div').hide();
 
 	$('.dropDown-Panel h3').click(function(){
   
-  $(this).next().slideToggle(300);
+  $(this).next().slideToggle();
 
   $(this).toggleClass('close');
 });

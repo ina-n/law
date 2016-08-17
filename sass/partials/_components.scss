@@ -242,3 +242,54 @@ form {
 }
 
 
+/* ====================================================================================================================
+ * FEEDBACK SLIDER
+ * =========================================================================================*/
+
+.flex-caption {
+  width: 98%;
+  position: absolute;
+  padding: 10px;
+  
+  top: 35%;
+  /*background: rgba(0,0,0, 0.2);*/
+  
+ 
+  
+  p{
+    color: $white;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  i {
+    color: yellow;
+    padding: 0 5px;
+  }
+
+  .stars {
+    
+    width: 17%;
+    margin: 0 auto;
+  }
+ 
+}
+
+
+.feedback-rating {
+    width: 50%;
+    display: block;
+    
+}
+
+p.rating-author {
+  font-size: 1em;
+}
+
+.feedback-rating .slides img {
+  height: 700px;
+}
+
