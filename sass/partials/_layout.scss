@@ -96,7 +96,7 @@ HEADER
 	vertical-align: middle;
 }
 
-/****** HERO *****/
+/****** HERO *****
 .hero {
 	background-color: $black;
 	padding: 30px 0;
@@ -115,7 +115,7 @@ HEADER
 		}
 	}
 
-
+*/
 
 /*============================
 	NAVIGATION
@@ -259,6 +259,8 @@ FEEDBACK SECTION
 =======================*/
 
 .feedback {
+overflow: hidden;
+
 	h2 {
 		color: $white;
 		text-align: left;

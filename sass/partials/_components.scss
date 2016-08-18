@@ -290,6 +290,69 @@ p.rating-author {
 }
 
 .feedback-rating .slides img {
-  height: 700px;
+  vertical-align: baseline;
 }
+
+/*=================
+Hero Slider
+=================*/
+
+.hero {
+	width: 100%;
+	display: block;
+
+
+	img {
+		width: 100%;
+		
+	}
+
+
+
+}
+
+.hero-slider {
+	position: relative;
+	
+}
+
+.hero-content {
+	
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+
+	h1 {
+		color: $white;
+		font-size: 2em;
+		
+		
+
+	}
+
+	span {
+		color: $orange;
+
+		font-size: 1.8em;
+	
+
+
+		
+
+	}
+
+	 .request{
+	 	color: $white;
+	 	margin: 0 auto;
+	 	width: 350px;
+	 	font-size: 1em;
+	}
+
+}
+
+
+
 

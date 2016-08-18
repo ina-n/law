@@ -21,22 +21,28 @@ $(window).load(function() {
 
 	$('.flexslider').each(function(){
 
+		
 
  		 $('#timeline-slide').flexslider({
    			animation: "slide",
     		controlsContainer: $(".custom-controls-container"),
     		customDirectionNav: $(".custom-navigation a"),
     		
-  			});
+  			});// end timeline-slide
 
   		$('#feedback-slide').flexslider({
   			animation: 'slide',
   			controlNav: false,
   			directionNav: true
 
+  		});// end feedback-slide
+
+  		$('#hero-slider').flexslider({
+  			animation: 'slide',
+  			controlNav: false
   		});
 
-	});
+	});// end each function
  
 
 });

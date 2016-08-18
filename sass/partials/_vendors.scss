@@ -55,6 +55,8 @@ FlexSlider
 .flexslider .slides img {
   width: 100%;
   display: block;
+  height: auto;
+
 }
 .flexslider .slides:after {
   content: "\0020";
@@ -329,11 +331,6 @@ html[xmlns] .flexslider .slides {
 }
 
 
-.feedback-rating {
-    width: 50%;
-    display: block;
-    
-}
 
 p.rating-author {
   font-size: 1em;
