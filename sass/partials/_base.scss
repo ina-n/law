@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	padding: 1px 0;  /* prevent margin collapse*/
+	padding: 1px 0 25px 0;  /* prevent margin collapse*/
 }
 
 ul {
@@ -58,9 +58,7 @@ section {
 }
 
 
-img {
-	display: block;
-}
+
 
 /*===============
 COLORS & FONT_SIZE
@@ -70,7 +68,10 @@ COLORS & FONT_SIZE
 
 .black-bg {background-color: $black;}
 
-.white-bg {background-color: $white;}
+.white-bg {background-color: $white;
+		   margin: 0;
+		padding: 0;
+	}
 
 /* FONT COLORS */
 

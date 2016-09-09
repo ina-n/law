@@ -21,7 +21,31 @@ section.about {
 	background-size: 13%;
 }
 
+/***** Service Section ****/
 
+.services aside {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+ .content {
+	padding: 0 6%;
+	text-align: center;
+
+	p {position: relative;
+		margin-bottom: 50px;
+		
+	}
+
+	p:after{
+		content: " ";
+    border-bottom: 1px double #ccc;
+    border-width: 5px;
+    width: 50px;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+	}
+}
 
 .QA {
 	width: 30%;
