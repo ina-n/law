@@ -570,11 +570,10 @@ footer h4 {
 
 /* line 1, ../sass/partials/_layout.scss */
 .wrap {
-  width: 90%;
+  width: 100%;
   /* 1200px  */
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 5%;
   /*background-color: green;*/
 }
 
